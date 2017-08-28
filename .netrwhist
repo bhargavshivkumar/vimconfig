@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/bhargav/RTMLton'
-let g:netrw_dirhist_2='/home/bhargav/rtml32'
-let g:netrw_dirhist_3='/home/bhargav/rtml32/runtime'
-let g:netrw_dirhist_4='/home/bhargav/rtml32/runtime/gc'
-let g:netrw_dirhist_5='/home/bhargav/rt-benchmarks'
-let g:netrw_dirhist_6='/home/bhargav/rt-benchmarks/Fragmentation_tolerance'
-let g:netrw_dirhist_7='/home/bhargav/rt-benchmarks/Fragmentation_tolerance/fraggerclj'
-let g:netrw_dirhist_8='/home/bhargav/rt-benchmarks/Fragmentation_tolerance/fraggerclj/src'
-let g:netrw_dirhist_9='/home/bhargav/rt-benchmarks/Fragmentation_tolerance/fraggerclj/src/fraggerclj'
+let g:netrw_dirhist_cnt =0
