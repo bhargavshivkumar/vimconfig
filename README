@@ -2,11 +2,14 @@ To deploy on a machine:
 
 Installation:
 
-    https://github.com/bhargavshivkumar/vimconfig.git
+   git clone https://github.com/bhargavshivkumar/vimconfig.git ~/.vim
+ 
 
 Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
+    
+    If gvimrc exists:
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
