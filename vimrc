@@ -10,6 +10,12 @@ set softtabstop=4
 set shiftwidth=4
 colorscheme solarized
 
+"Set filetype for .fun
+augroup filetypedetect
+	au BufRead,BufNewFile *.fun 	setfiletype sml
+augroup END
+
+
 "------------Start Python PEP 8 stuff----------------
 " Number of spaces that a pre-existing tab is equal to.
 au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
