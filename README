@@ -1,15 +1,18 @@
+To deploy on a machine: 
 
 Installation:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+   git clone https://github.com/bhargavshivkumar/vimconfig.git ~/.vim
+ 
 
 Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
+    
+    If gvimrc exists:
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git submodule update --init
